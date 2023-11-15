@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,700&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppins";
+ }
+
+ 
+.attribution {
+  background: hsl(30, 38%, 92%);
+  height: 700px;
+  margin: 0 150px;
+  margin-top: 150px;
+  padding-top: 150px;
+}
+
+.container {
+  background: #f8f8f8;
+  margin-right: 400px;
+  display: flex;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+img {
+  height: 400px;
+  margin: auto;
+  border-radius: 10px 0 0 10px;
+}
+
+.topic {
+  font-size: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 19px;
+  line-height: 1;
+}
+
+.message {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 12px;
+  margin-top: 19px;
+  font-weight: 70;
+  margin-bottom: 30px;
+}
+
+.discountedPrice {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+  color: rgb(13, 121, 121);
+  margin-top: 15px;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+.price  {
+font-size: 12px;
+}
+del {
+  color: black;
+}
+
+.btn {
+  width: 188px;
+height: 45px;
+background: rgb(73, 179, 179);
+color: #f8f8f8;
+border-radius: 10px;
+border: #f8f8f8;
+cursor: pointer;
+font-size: 16px;
+font-weight: 400;
+margin: 18px;
+margin-top: 30px;
+}
+
+.btn img {
+  height: 20px;
+  color: #f8f8f8;
+}
+
+.Perfume {
+  margin-left: 20px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
+
+.name {
+  text-align: center;
+  padding-top: 30px;
+}

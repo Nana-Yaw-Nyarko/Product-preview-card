@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="app" >
+
+    <div v-if="showContents" class="attribution">
+      
+
+      <div v-for="pic in contents" class="container">
+        
+        <img :src="pic.image" :alt="image">
+      
+        <div>
+          <p class="Perfume">Perfume</p>
+          <h2 class="topic"> {{ pic.topic }} </h2>
+          <p class="message"> {{ pic.message }} </p>
+          <p class="discountedPrice"> {{pic.discountedPrice}}  <del class="price">{{pic.price}}</del> </p>
+          <button class="btn">
+            <img src="images/shop.png" alt="">
+            {{pic.button}} </button>
+        </div>
+          
+
+
+      </div>
+
+    </div>
+
+    <p class="name"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Nyarko Emmanuel Frimpong</a>.
+   </p>
+
+  </div>
+
+  
+
+ 
+
+
+
+
+
+  
+  
+
+
+    <script src="./app.js"></script>
+ 
+</body>
+</html>
